@@ -38,7 +38,7 @@ const SectionIntro = () => {
             />
           </Grid>
           <Grid item md={3}>
-            <Subtitle text="Documentation for everything" />
+            <Subtitle text="Documentation for everything 1" />
             <Body
               text="We've written extensive documentation for components and tools, so you never have to reverse engineer anything."
               style={{ color: "#718096" }}
