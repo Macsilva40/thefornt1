@@ -27,8 +27,8 @@ const SectionIntro = () => {
 
       <Grid container justify="center" spacing={8} maxWidth="sm">
         <Grid item md={3}>
-          <Icon component={<LayersIcon styles={classes.icon} />} />
-          <Subtitle text="Built for developers" />
+          <Icon component={<LayersIcon fontSize="large" color="blue" />} />
+          <Subtitle text="Built for developers 2" />
           <Body
             text="TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components."
             style={{ color: "#718096" }}
