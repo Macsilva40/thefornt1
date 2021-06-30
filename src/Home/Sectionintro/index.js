@@ -2,6 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import LayersIcon from "@material-ui/icons/Layers";
+import Divider from "@material-ui/core/Divider";
 import AcUnitRoundedIcon from "@material-ui/icons/AcUnitRounded";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import { Title, Subtitle, Body } from "../../components/Text";
@@ -51,6 +52,9 @@ const SectionIntro = () => {
           />
         </Grid>
       </Grid>
+      <div className={classes.linha}>
+        <Divider variant="middle" />
+      </div>
     </Container>
   );
 };
